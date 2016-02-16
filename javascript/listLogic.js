@@ -1,7 +1,6 @@
 $(document).ready(function(){
 	// this is the HTML representation of our todo-list.
 	var toDoList = p.grabElementById('list');
-
 	// this is the HTML representation of our "create task" button. We can add 'events' to so that it responds to the users actions. Read about dom events here: http://www.w3schools.com/js/js_htmldom_events.asp
 	var createTaskForm = p.grabElementById('taskForm');
 
@@ -10,24 +9,24 @@ $(document).ready(function(){
 
 	// we're going to be sorting/changing our original list, so our masterlist is going to cache every single item we create so that we can always reference them.
 	var masterList = [];
-	
 
 	// adding an event called 'onsubmit' to the createTaskForm. When you press the 'createTask' button, it will run the code below. You'll be using this syntax later down the line to create other event handlers and buttons.
 	createTaskForm.onsubmit = function(e){
 		// whenever you use a an event hanlder and you DON'T want the page to refresh, you must use an e.preventDefault()
 		e.preventDefault();
-		
 		// 1. use one of our helper functions grab the users input and chosen due date when the user submits their task and save them to variables.
 			// which helper function would make sense here?
-		
+		var userInput = p.grabInputValueById('taskInput');
+		var userDate = p.grabInputValueById('datePicker');
+
 		// 2. in your library.js, create your p.formatDate helper function 
 			// 2a. create a chosenDueDate variable, and use your p.formatDate helper function to the proper date.
-
-
 
 		// 17. SKIP IF 1-16 isn't finished: Under this line,  create an if statement that uses the checkListForDuplicates helper function to check our masterList for duplicates. Oh, and create the checkListForDuplicates helper function :).  If there are no duplicates, run sections 3 through 16. If there is a duplicate, alert the user that the task is a duplicate and update the userInputs to be empty.
 
 			// 3. use one of our helper functions to create a new list, 'li' variable, saved to the variable "newListItem".
+			var newListItem = p.createItem('li');
+			console.log(newListItem);
 
 			// 4. use one of our helper functions to create  HTML element and save it to the variable checkBox;
 			
@@ -87,17 +86,19 @@ $(document).ready(function(){
 
 // ======================================= SECTION 2 FILTER FUNCTIONALITY ==============================================
 
-	// 1. create a 'clearCompletedTasksButton' variable that holds the element of the completedTask button
+	// 1. in your index.html, uncomment lines 31 through 33
+	
+	// 2. create a 'clearCompletedTasksButton' variable that holds the element of the completedTask button
 	var clearCompletedTasksButton = p.grabElementById('clearCompleted');
 
-	// 2. create an onsubmit event on the clearCompletedTasksButton
+	// 3. create an onsubmit event on the clearCompletedTasksButton
 
-		// 3. instantiate your preventDefault()
+		// 4. instantiate your preventDefault() like 
 
-		// 4. use our helper, p.getAllCompleteTasks, function to get a collection of all of the completed tasks, and save it into a variable, completedToDos
+		// 5. use our helper, p.getAllCompleteTasks, function to get a collection of all of the completed tasks, and save it into a variable, completedToDos
 	
-		// 5. use our helper, p.emptyList empty the current list of items in our toDoList
+		// 6. use our helper, p.emptyList empty the current list of items in our toDoList
 
-		// 6. use our helper, p.updateToDoList toDo list with  only the completedToDos 	
+		// 7. use our helper, p.updateToDoList toDo list with  only the completedToDos 	
 
 });
