@@ -3,7 +3,7 @@
 ## You do not have to write your solutions like this, just suggestions an the approach.
 
 
-* [] p.formatDate - takes in a string value representing the date and formats it to mm/dd/yyyy
+* [ ] p.formatDate - takes in a string value representing the date and formats it to mm/dd/yyyy
 
       ```
         p.formatDate = function(date){
