@@ -85,8 +85,8 @@
 
 * [ ] getPastDueItemstakes -  the currentToDoList and the current date, and returns an array containing all of the elements that are dated before the current due date.
 
-        ```
-        p.getPastDueItems = function(currentToDoList, currentDate){
+      ```
+      p.getPastDueItems = function(currentToDoList, currentDate){
           use filter to return only the elements in the currentToDoList that are dated before the currentDate.
           create a flag, that we're going to set to false.
           grab the array of children out of the listItem
@@ -96,19 +96,19 @@
                      if it does, set flag to true.
            outside of your loop return flag
             
-        };
+      };
 
-        ```
+      ```
 
 * [ ] sortByDate - takes the toDoList html element and returns a new list where the list items are sorted.
 
-        ```
-        p.sortByDate = function(toDoList){
-           iterate through the items toDoList HTML object and return items into a new array
-            sort the items in the new array
-             get the string value of the dueDates from each item and save them into variables.
-             convert the dates into Numbers and compare them.
-           return the sorted list to the user.
+      ```
+      p.sortByDate = function(toDoList){
+         iterate through the items toDoList HTML object and return items into a new array
+          sort the items in the new array
+           get the string value of the dueDates from each item and save them into variables.
+           convert the dates into Numbers and compare them.
+         return the sorted list to the user.
         };
 
-        ```
+      ```
