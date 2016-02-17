@@ -107,7 +107,7 @@
            iterate through the items toDoList HTML object and return items into a new array
             sort the items in the new array
              get the string value of the dueDates from each item and save them into variables.
-             convert the dates into Numbers (*hint hint*) and compare them.
+             convert the dates into Numbers and compare them.
            return the sorted list to the user.
         };
 
