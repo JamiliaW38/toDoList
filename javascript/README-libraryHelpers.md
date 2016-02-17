@@ -83,7 +83,7 @@
 
 ## Nightmare Mode:
 
-  * [ ] getPastDueItemstakes -  the currentToDoList and the current date, and returns an array containing all of the elements that are dated before the current due date.
+* [ ] getPastDueItemstakes -  the currentToDoList and the current date, and returns an array containing all of the elements that are dated before the current due date.
 
         ```
         p.getPastDueItems = function(currentToDoList, currentDate){
@@ -98,9 +98,9 @@
             
         };
 
-      ```
+        ```
 
-  * [ ] sortByDate - takes the toDoList html element and returns a new list where the list items are sorted.
+* [ ] sortByDate - takes the toDoList html element and returns a new list where the list items are sorted.
 
         ```
         p.sortByDate = function(toDoList){
