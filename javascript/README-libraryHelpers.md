@@ -87,15 +87,14 @@
 
       ```
       p.getPastDueItems = function(currentToDoList, currentDate){
-          use filter to return only the elements in the currentToDoList that are dated before the currentDate.
-          create a flag, that we're going to set to false.
-          grab the array of children out of the listItem
-          use loop through each child element
-               check to see whether the element has the class 'dueDate'
-                if the it does, check whether the elements date lands before the current date
-                     if it does, set flag to true.
-           outside of your loop return flag
-            
+        use filter to return only the elements in the currentToDoList that are dated before the currentDate.
+        create a flag, that we're going to set to false.
+        grab the array of children out of the listItem
+        use loop through each child element
+             check to see whether the element has the class 'dueDate'
+              if the it does, check whether the elements date lands before the current date
+                   if it does, set flag to true.
+         outside of your loop return flag   
       };
 
       ```
@@ -109,6 +108,6 @@
            get the string value of the dueDates from each item and save them into variables.
            convert the dates into Numbers and compare them.
          return the sorted list to the user.
-        };
+      };
 
       ```
