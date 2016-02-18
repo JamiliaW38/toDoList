@@ -74,15 +74,15 @@ NIGHTMARE MODE: These last two pieces of functionality take quite a bit of JavaS
 
   Front-End Design: 
 
-    * Make your toDoList look nice as if you would use it. Get your hands dirty with more HTML and CSS. Try implementing animations and transitions. Explore!!!!
+    > Make your toDoList look nice as if you would use it. Get your hands dirty with more HTML and CSS. Try implementing animations and transitions. Explore!!!!
 
   New Features:
 
-    * Think of features that may be useful and build it! Try putting the current date and time somewhere in the app. Maybe get the current weather stats for your current location...
+    > Think of features that may be useful and build it! Try putting the current date and time somewhere in the app. Maybe get the current weather stats for your current location...
 
   Local-Storage:
   
-    * As of now, when you refresh the page, close the tab or browser, the state of your todo's are no longer available. This is where local-storage comes into play. Your browser has storage that is a part of web storage which saves bits of data to the your computer so that when you reload the page all of their todo’s will still be there. Go ahead and try utilizing local storage for your app.
+    > As of now, when you refresh the page, close the tab or browser, the state of your todo's are no longer available. This is where local-storage comes into play. Your browser has storage that is a part of web storage which saves bits of data to the your computer so that when you reload the page all of their todo’s will still be there. Go ahead and try utilizing local storage for your app.
 
 
 
